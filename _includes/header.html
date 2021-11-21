@@ -1,0 +1,48 @@
+<style>
+.container{
+      display: inline-block;
+ }
+
+.typed-out{
+    padding-bottom: 2%;
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    font-size: 1.6rem;
+    width: 0;
+    animation: 
+      typing 1s steps(20, end) forwards,
+      blink .8s infinite;
+}
+
+@keyframes blink {
+  from { border-color: transparent }
+  to { border-color: white; }
+}
+
+@keyframes typing {
+      from { width: 0 }
+      to { width: 100% }
+}
+</style>
+<div id="particles-js">
+  <div class="header">
+      <h1>
+        <div class="container">
+          <span class="site-title typed-out">{{site.username}}</span>
+        </div>
+        <span class="site-description">{{site.user_title}}</span>
+      </h1>
+      <div class="header-icons">
+        <a aria-label="Send email" href="mailto:{{site.email}}"><i class="icon fa fa-envelope"></i></a>
+        <a aria-label="My LinkedIn" target="_blank" href="{{site.linkedin_url}}"><i class="icon fa fa-linkedin"></i></a>
+        <a aria-label="My Github" target="_blank" href="https://github.com/{{site.github_username}}"><i class="icon fa fa-github-alt" aria-hidden="true"></i></a>
+      </div>
+      <div class="header-links">
+        <a class="link" href="#about" data-scroll>About Me</a>
+        <a class="link" href="#experience" data-scroll>Experience</a>
+        <a class="link" href="#projects" data-scroll>Projects</a>
+      </div>
+  </div>
+  <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
+</div>

@@ -1,0 +1,19 @@
+# Site settings
+title: Brody Uehara - Software Developer
+description: Brody Uehara - Software Developer
+#baseurl: "/brodyu.github.io" # the subpath of your site, e.g. /blog
+#url: "" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+
+# User settings
+username: Brody Uehara
+user_description: I am building out the computing infrastructure for Kamehameha Schools' endowment, a $15 billion endowment fund located in Honolulu, HI. I am a recent graduate of the University of Hawaii at Manoa where I studied Computer Science, and I am currently working towards my MSc in Computer Science at the Georgia Institute of Technology. 
+user_title: Software Developer
+email: brodyuehara@gmail.com
+github_username:  brodyu
+linkedin_url: https://www.linkedin.com/in/brodyu
+
+# Google-analytics
+google-analytics:
+  id: "UA-160596761-1"
+
+exclude: ['package.json', 'src' , 'node_modules']
