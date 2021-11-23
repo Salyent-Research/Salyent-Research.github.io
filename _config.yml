@@ -6,7 +6,7 @@ description: Salyent Research Group
 
 # User settings
 username: Salyent Research Group
-user_description: Lorem ipsum dolor sit amet
+user_description:
 user_title: Software Developer
 email: buehara@salyentresearch.com
 github_username:  brodyu
